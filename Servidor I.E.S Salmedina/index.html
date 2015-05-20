@@ -1,0 +1,253 @@
+<HTML>
+	<HEAD>
+		<TITLE>Servidor</TITLE>
+		
+		<META http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
+		
+		<STYLE>
+			body {			
+				background-color:black;
+				}
+
+/*Imagen de fondo*/
+			#cajaimagendefondo {
+				position:absolute;
+				margin:auto;
+				z-index:-1;
+				top:90px;
+				}
+			#imagendefondo {
+				z-index:-1;
+				background-repeat:no-repeat;
+				width:800px;
+				height:*;
+				}
+
+/*Fin de imagen de fondo*/				
+
+/*Comienza el menu superior*/
+			#cajamenusuperior {
+				position:absolute;
+				width:100%;
+				height:80px;
+				background-image:url(./images/patron.jpg);
+				background-repeat:repeat-x;
+				background-color:#3B5998;
+				text-align:center;
+				left:0;
+				right:0;
+				top:0;
+				bottom:0;
+				}
+			#menusuperior { /*Es una caja donde va dentro los 3 div de contenidos: titulo, menu y logo*/
+				position:relative;
+				text-align:center;
+				vertical-align:middle;
+				margin:0 auto;
+				width:1010px;
+				height:80px;
+				top:0px;
+				z-index:10;
+				}
+			#titulo {
+				float:left;
+				}
+			#menu {
+				float:left;
+				vertical-align:middle;
+				}
+			#findemenu {
+				position:relative;
+				float:right;
+				}
+			#listamenu {
+				display:table-cell;
+				color:white;
+				vertical-align:middle;
+				top:40px;
+				padding:30px;
+				}
+			.limenu {
+				color:white;
+				display:inline;
+				margin:1px;
+				color:#3B5998;
+				font-size:20px;
+				list-style:none;				
+				}
+			.linkmenu {
+				color:white;
+				text-decoration:none;
+				font-weight:bold;
+				}
+			.linkmenu:hover {
+				color:orange;
+				}
+			.linkmenu:link {
+				color:white;
+				}
+/* Termina el menu superior*/
+
+			#cajageneral {
+				position:relative;
+				margin:auto;
+				text-align:center;
+				width:1000px;
+				}
+
+/*Comienza el menu de la IZQ*/
+			#cajamenuizq{
+				position:relative;
+				top:80px;
+				width:220px;
+				height:640px;
+				text-align:center;
+				float:left;
+				}
+			#menuizq {
+				padding-top:5px;
+				position:relative;
+				border:5px solid #3B5998;
+				opacity:0.6;
+				width:200px;
+				height:600px;
+				overflow:scroll;
+				background-color:white;
+				text-align:left;
+				border-radius:50px;
+				}
+			.liizquierdo {
+				margin:0px;
+				margin-left:-30px;
+				color:#3B5998;
+				font-size:20px;
+				list-style:none;
+				text-decoration:none;
+				}
+			.linkizquierdo {
+				text-decoration:none;
+				}
+			LI .linkizquierdo:link {
+				color:green;
+				}
+			LI .linkizquierdo:visited {
+				color:green;
+				}
+			LI .linkizquierdo:hover {
+				color:orange
+				}
+/*Termina el menu de la izq*/
+
+/*Contenido*/
+			#contenido {
+				position:relative;
+				border:5px solid #3B5998;
+				float:left;
+				top:80px;
+				min-width:720px;
+				background-color:white;
+				opacity:0.6;
+				border-radius:15px;
+				}
+			.entrada {
+				position:relative;
+				text-align:justify;
+				margin:7px;
+				}
+			.entrada > H1 > A {
+				text-decoration:none;
+				}
+/*Fin de contenido*/		
+				
+/*Estilos Generales*/
+			
+			H1 {
+				color:orange;
+				font-size:26px;
+				text-align:left;
+				}
+			H1 A:active {
+				color:red;
+				}
+			H1 A:visited {
+				color:orange;
+				}
+			H1 A:hover {
+				color:green;
+				}
+			H1 A:link {
+				color:orange;
+				}
+			
+			H3 {
+				color:white;
+				font-size:30px;
+				text-align:center;
+				vertical-align:middle;
+				margin:1px;
+				}
+			A	{
+				}
+				
+
+		</STYLE>
+	</HEAD>
+
+	<BODY>
+<!--Imagen de fondo-->
+		<DIV id="cajaimagendefondo">
+			<IMG id="imagendefondo" src="./images/fondo.jpeg"/>
+		</DIV>
+<!--Fin de imagen de fondo-->
+		
+		<DIV id="cajamenusuperior">
+			<DIV id="menusuperior">
+				<DIV id="titulo">
+					<H3>IES</H3>
+					<H3>SALMEDINA</H3>
+				</DIV>
+				
+				<DIV id="menu">
+					<UL id="listamenu">
+						<LI class="limenu"><A class="linkmenu" href="#">ISOS</A></LI>
+						<LI class="limenu"><A class="linkmenu" href="#">HORARIO</A></LI>
+						<LI class="limenu"><A class="linkmenu" href="#">SERVIDORES</A></LI>
+						<LI class="limenu"><A class="linkmenu" href="#">MÁQUINA VIRTUAL</A></LI>
+						<LI class="limenu"><A class="linkmenu" href="#">OTROS</A></LI>
+					</UL>
+				</DIV>
+				
+				<DIV id="findemenu">
+					<IMG src="./images/logo.png">
+				</DIV>
+				
+			</DIV>
+		</DIV>
+		
+		<DIV id="cajageneral"><!--Caja general-->
+		
+			<DIV id="cajamenuizq">
+				<DIV id="menuizq">
+					<UL>
+						<LI class="liizquierdo"><A class="linkizquierdo" href="#">Link1</A></L1>
+						<LI class="liizquierdo"><A class="linkizquierdo" href="#">Link2</A></L1>
+						<LI class="liizquierdo"><A class="linkizquierdo" href="#">Link3</A></L1>
+						<LI class="liizquierdo"><A class="linkizquierdo" href="#">Link4</A></L1>
+					<UL>
+				</DIV>
+			</DIV>
+		
+			<DIV id="contenido">
+				Contenido
+				<DIV class="entrada">
+					<H1><A href="#">Título Entrada 1</A></H1>
+					<P>Descripción o contendido de la entrada</P>
+				</DIV>
+				<DIV class="entrada">
+					<H1><A href="#">Entrada 2</A></H1>
+					<P>Descripción o contendido de la entrada</P>
+				</DIV>
+			</DIV>
+		</DIV> <!--Fin de caja general-->
+	</BODY>
+</HTML>
