@@ -12,6 +12,8 @@ Cajas Generales
 		flex: 2;
 	}
 	#CajaLateral {
+		align-self: flex-start;
+		top: 0;
 		flex: 1;
 	}
 }
