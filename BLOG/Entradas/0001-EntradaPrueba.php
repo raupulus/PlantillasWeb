@@ -1,3 +1,32 @@
 <?php
 
 ?>
+<P>
+	Esto es una tabla de pruebas
+</P>
+<TABLE>
+	<TR>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+	</TR>
+	<TR>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+	</TR>
+	<TR>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+	</TR>
+	<TR>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+	</TR>
+</TABLE>
