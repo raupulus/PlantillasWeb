@@ -37,7 +37,7 @@
 			$o = 9;//Entradas totales por página (empieza por 0)
 			$tamanoArray = count($arrayEntradas);
 			if ($tamanoArray<=10) {//Si hay menos de 10 entradas cambia $o
-				$o = $tamanoArray;
+				$o = $tamanoArray-1;//Le quito 1 porque el array empieza desde 0
 			}
 			while ($i<=$o) {
 				echo "Array: ".$i;
@@ -46,9 +46,12 @@
 			}
 
 			//Función para comprobar si hay más de 10/20/30... así hasta conocer cuantos números de páginas se crean en el pie para crear luego botón
-			if ($tamanoArray<<$o){
+			if ($tamanoArray>$o && $tamanoArray>10){
+				echo "el array es mayor";
 				$totaldepaginas = ($tamanoArray/$o);
 				echo "Se necesitan ".$totaldepaginas." páginas en total";
+			} else {
+				echo "Solo <A href=# style='color:red;'>1</A> página";
 			}
 
 			//Botón que muestra las siguientes 10 entradas o las anteriores
