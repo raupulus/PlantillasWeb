@@ -9,7 +9,8 @@ H1,H2,H3,H4,H5,H6 {
 
 }
 H1 {
-
+	color: greenyellow;
+	text-align: center;
 }
 H2 {
 
@@ -33,14 +34,11 @@ TABLE {
 	align-content: left;
 	text-align: left;
 }
-#titulo1 {
-	color: greenyellow;
-	text-align: center;
-}
-#titulo2 {
-	color: greenyellow;
-	text-align: center;
-}
+/*
+------------------------------------------
+Cajas Generales
+------------------------------------------
+*/
 #CajaGeneral {
 	padding: 5px;
 	margin: 10px auto;
