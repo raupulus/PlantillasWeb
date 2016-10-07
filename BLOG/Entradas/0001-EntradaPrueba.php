@@ -2,7 +2,7 @@
 
 ?>
 <P>
-	Esto es una tabla de pruebas
+	Entrada de pruebas 1
 </P>
 <TABLE>
 	<TR>
