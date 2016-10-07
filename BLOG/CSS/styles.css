@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+BODY {
+	background-color: black;
+}
+H1,H2,H3,H4,H5,H6 {
+
+}
+H1 {
+
+}
+H2 {
+
+}
+H3 {
+	color: darkorange;
+}
+P {
+	color: aliceblue;
+	text-align: center;
+}
+A {
+	color: orange;
+}
+A:visited {
+	color: darkseagreen;
+}
+TABLE {
+	margin: 10px auto;
+	vertical-align: middle;
+	align-content: left;
+	text-align: left;
+}
+#titulo1 {
+	color: greenyellow;
+	text-align: center;
+}
+#titulo2 {
+	color: greenyellow;
+	text-align: center;
+}
+.ejemplo {
+	padding: 5px;
+	margin: 10px auto;
+	min-width: 500px;
+	max-width: 900px;
+	background-color: greenyellow;
+	border: 3px groove orange;
+	color: black;
+	font-size: 1.2em;
+	font-weight: bolder;
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 5px 5px 25px white;
+}
+.ejemplo P {
+	color: black;
+}
+.barraEstadistica {
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	height: 15px;
+	border: 2px solid black;
+	text-align: left;
+	background-color: dimgray;
+}
+.barraEstadistica IMG {
+	padding: 0;
+	margin: 0;
+	height: 15px;
+	text-align: left;
+	vertical-align: top;
+	border: 0;
+}
