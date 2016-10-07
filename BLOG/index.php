@@ -23,7 +23,7 @@
 		<DIV id="CajaEntradas">
 			<H2>Entradas</H2>
 			<?php
-
+				include ('./Entradas/0001-EntradaPrueba.php');
 			?>
 		</DIV>
 
