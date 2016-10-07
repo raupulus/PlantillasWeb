@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+
+?>
 <HTML lang="es">
 <HEAD>
 	<TITLE>BLOG</TITLE>
@@ -8,15 +11,17 @@
 	<META name="author" content="Raúl Caro Pastorino"/>
 	<LINK rel="shortcut icon" href="./images/favicon.png"/>
 	<LINK rel="stylesheet" href="./CSS/styles.css"/>
+	<LINK rel="stylesheet" href="./CSS/1000.css"/>
+	<LINK rel="stylesheet" href="./CSS/+1000.css"/>
 	<SCRIPT src="JS/scripts.js"></SCRIPT>
 </HEAD>
 
 <BODY>
-	<H1 id="titulo1">Nombre del BLOG</H1>
+	<H1>Nombre del BLOG</H1>
 	<P>Descripción</P>
 	<DIV id="CajaGeneral">
 		<DIV id="CajaEntradas">
-			Caja para las entradas
+			<H2>Entradas</H2>
 			<?php
 
 			?>
