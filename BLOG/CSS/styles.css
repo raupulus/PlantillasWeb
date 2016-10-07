@@ -41,11 +41,11 @@ TABLE {
 	color: greenyellow;
 	text-align: center;
 }
-.ejemplo {
+#CajaGeneral {
 	padding: 5px;
 	margin: 10px auto;
-	min-width: 500px;
-	max-width: 900px;
+	min-width: 400px;
+	max-width: 1200px;
 	background-color: greenyellow;
 	border: 3px groove orange;
 	color: black;
@@ -58,9 +58,23 @@ TABLE {
 	text-align: center;
 	border-radius: 10px;
 	box-shadow: 5px 5px 25px white;
+	display: flex;
 }
-.ejemplo P {
+.CajaGeneral P {
 	color: black;
+}
+#CajaEntradas {
+	margin: 0 1% 0 0;
+	border: 3px solid white;
+	border-radius: 6px;
+	background-color: orange;
+	flex: 2;
+}
+#CajaLateral {
+	border: 3px solid white;
+	border-radius: 6%;
+	background-color:dodgerblue;
+	flex: 1;
 }
 .barraEstadistica {
 	float: right;
