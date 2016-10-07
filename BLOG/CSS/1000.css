@@ -1,8 +1,20 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
 /*
 ------------------------------------------
-
+Cajas Generales
 ------------------------------------------
 */
-
+	#CajaGeneral {
+		display: block;
+	}
+	#CajaEntradas {
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+	#CajaLateral {
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
 }
