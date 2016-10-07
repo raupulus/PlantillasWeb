@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <HTML lang="es">
 <HEAD>
-	<TITLE>Nombre</TITLE>
+	<TITLE>BLOG</TITLE>
 	<META charset="utf-8"/>
-	<META name="description" content="Plantilla de Ejemplo"/>
+	<META name="description" content="BLOG"/>
 	<META name="keywords" content="ejemplo, plantilla, programación, Raúl Caro Pastorino, Fryntiz"/>
 	<META name="author" content="Raúl Caro Pastorino"/>
 	<LINK rel="shortcut icon" href="./images/favicon.png"/>
@@ -12,11 +12,22 @@
 </HEAD>
 
 <BODY>
-	<H1 id="titulo1">Título de la página</H1>
-	<H2 id="titulo2">Sección de que se trata</H2>
+	<H1 id="titulo1">Nombre del BLOG</H1>
 	<P>Descripción</P>
-	<DIV class="ejemplo">
-		Plantilla de ejemplo
+	<DIV id="CajaGeneral">
+		<DIV id="CajaEntradas">
+			Caja para las entradas
+			<?php
+
+			?>
+		</DIV>
+
+		<DIV id="CajaLateral">
+			Caja con el menú lateral
+			<?php
+
+			?>
+		</DIV>
 	</DIV>
 <?php
 
