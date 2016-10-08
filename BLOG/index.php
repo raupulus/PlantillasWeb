@@ -23,6 +23,24 @@
 		<DIV id="CajaEntradas">
 			<H2>Entradas</H2>
 			<?php
+			//Variables
+			$paginas = $_GET['paginas'];
+			if ($paginas == "" || $paginas == 1) {
+				$paginas = 1;
+			}/* else {
+				$paginas = intval($paginas);
+				echo "aaaaaaa".$paginas;
+			}*/
+			$EntradasPorPaginas = 9;
+			$CantidadPaginas = $_GET['CantidadPaginas'];
+			$contador = 0;
+			if ($_GET['contador'] == "" || $_GET['contador'] == 0) {
+				$contador = 0;
+			} else {
+				$contador = $_GET['contador'];
+			}
+
+
 			//Leer todos los archivos del directorio entrada a un array
 			$arrayEntradas = scandir('./Entradas/');
 			unset($arrayEntradas[0]);//Borra punto nivel actual
@@ -33,29 +51,47 @@
 			$arrayEntradas = array_reverse($arrayEntradas);
 
 			//Bucle que recorre el array pintando las 10 primeras entradas
-			$i = 0;
-			$o = 9;//Entradas totales por página (empieza por 0)
 			$tamanoArray = count($arrayEntradas);
+			/*
 			if ($tamanoArray<=10) {//Si hay menos de 10 entradas cambia $o
-				$o = $tamanoArray-1;//Le quito 1 porque el array empieza desde 0
+				$EntradasPorPaginas = $tamanoArray-1;//Le quito 1 porque el array empieza desde 0
 			}
-			while ($i<=$o) {
-				echo "Array: ".$i;
-				include ("./Entradas/".$arrayEntradas[$i]);
-				$i = $i+1;
+			*/
+			$Recontador = $contador+$EntradasPorPaginas; //???? Y LOS QUE SOBRAN?????
+
+			while ($contador<=$Recontador) {
+				echo "Array: ".$contador;
+				include ("./Entradas/".$arrayEntradas[$contador]);
+				$contador = $contador+1;
 			}
 
 			//Función para comprobar si hay más de 10/20/30... así hasta conocer cuantos números de páginas se crean en el pie para crear luego botón
-			if ($tamanoArray>$o && $tamanoArray>10){
-				echo "el array es mayor";
-				$totaldepaginas = ($tamanoArray/$o);
-				echo "Se necesitan ".$totaldepaginas." páginas en total";
+			echo "<BR/><BR/><HR/><BR/>";
+
+			if ($_GET['CantidadPaginas'] == ""){
+				$CantidadPaginas = ($tamanoArray/$contador);
+				$CantidadPaginas = intval($CantidadPaginas)+1;
+				echo "Se necesitan ".$CantidadPaginas." páginas en total<BR/>";
+				echo "Página principal<BR/>";
+
+				$a = 1;
+				while ($a <= $CantidadPaginas) {
+
+				echo "<A href=index.php?contador=$contador&CantidadPaginas=$CantidadPaginas><B style='color:red;'>$a</B></A>";
+				$a = $a+1;
+				}
 			} else {
-				echo "Solo <A href=# style='color:red;'>1</A> página";
+				echo "Se necesitan ".$CantidadPaginas." páginas en total<BR/>";
+				echo "Página secundaria<BR/>";
+				$a = 1;
+				$CantidadPaginas = $_GET['CantidadPaginas'];
+				while ($a <= $CantidadPaginas) {
+				echo "<A href=index.php?contador=$contador&CantidadPaginas=$CantidadPaginas><B style='color:red;'>$a</B></A>";
+				$a = $a+1;
+				}
 			}
 
 			//Botón que muestra las siguientes 10 entradas o las anteriores
-
 
 
 			//print (substr($arrayEntradas, 14));
