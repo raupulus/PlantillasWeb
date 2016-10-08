@@ -1,0 +1,32 @@
+<?php
+
+?>
+<P>
+	Entrada de pruebas 2
+</P>
+<TABLE>
+	<TR>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+	</TR>
+	<TR>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+	</TR>
+	<TR>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+	</TR>
+	<TR>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+		<TD>Prueba</TD>
+	</TR>
+</TABLE>
