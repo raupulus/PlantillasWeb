@@ -89,7 +89,12 @@ BODY {
 ------------ Contenido ------------
 -----------------------------------
 */
-
+ARTICLE {
+	margin: auto;
+	min-width: 400px;
+	max-width: 800px;
+	background-color: #ffffff;
+}
 
 
 /*
