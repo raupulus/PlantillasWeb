@@ -25,6 +25,7 @@
 		<?php
 			include ('titulo.php');
 			include ('menuprincipal.php');
+			include ('contenido');
 		?>
 		<H1>Muestra</H1>
 	</BODY>
