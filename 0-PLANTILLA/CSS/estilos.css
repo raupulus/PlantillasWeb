@@ -10,6 +10,7 @@ BODY {
 	background-image: url("../img/PatronFondo.png");
 }
 HR {
+	margin:  20px 0;
 	border:  1px groove skyblue;
 }
 /*
@@ -104,8 +105,19 @@ HR {
 	flex: 3;
 	border-right: 3px groove skyblue;
 }
-
-
+#cajaContenido #cajaEntradas ARTICLE HEADER {
+	margin: 5px 0;
+	color: white;
+	text-align: center;
+	border:  2px groove black;
+	background-color: #103f77;
+	border-radius:  5px;
+}
+#cajaContenido #cajaEntradas ARTICLE HEADER H2 {
+	color: red;
+	background-color: #5a71ad;
+	text-shadow: 1px 1px 1px black;
+}
 /*
 -----------------------------------
 -------------- Aside --------------
