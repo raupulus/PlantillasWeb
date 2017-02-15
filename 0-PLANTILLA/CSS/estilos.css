@@ -1,5 +1,45 @@
+/*
+Ancho del sitio 1000px
+mínimo ancho adaptable 600px
+*/
 * {
 	margin: 0;
 	padding: 0;
 }
 
+#cajaTitulo {
+	margin: auto;
+	min-width: 600px;
+	max-width: 1000px;
+	height: 80px;
+	text-align: center;
+	background-color:red;
+}
+#cajaTitulo IMG {
+	position: absolute;
+	top: 2px;
+	width: 600px;
+	height: 75px;
+}
+
+#cajaMenuPrincipal {
+	margin: auto;
+	min-width: 600px;
+	max-width: 1000px;
+	text-align: center;
+	background-color:green;
+}
+#cajaMenuPrincipal A,
+#cajaMenuPrincipal UL LI {
+	display: inline-block;
+	padding: 2px;
+	text-decoration: none;
+	list-style: none;
+	background-color: yellow;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+#cajaMenuPrincipal A:hover {
+	background-color: skyblue;
+}
