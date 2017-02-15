@@ -177,3 +177,33 @@ ASIDE UL LI:nth-of-type(even) A {
 -------------- Footer -------------
 -----------------------------------
 */
+
+FOOTER {
+	margin: 0 auto 10px auto;
+	min-width: 600px;
+	max-width: 1000px;
+	border-top:3px groove black;
+	background-color:#103f77;
+}
+FOOTER P {
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+FOOTER P A {
+	color: yellow;
+}
+FOOTER #cajaEnlacesFooter {
+	margin: auto;
+	width: 100%;
+	display: flex;
+}
+FOOTER #cajaEnlacesFooter NAV {
+	flex: 1;
+}
+FOOTER #cajaEnlacesFooter NAV UL {
+
+}
+FOOTER #cajaEnlacesFooter NAV UL LI {
+
+}
