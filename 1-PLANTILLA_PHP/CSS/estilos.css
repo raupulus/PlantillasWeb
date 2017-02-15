@@ -1,0 +1,255 @@
+/*
+Ancho del sitio 1000px
+mínimo ancho adaptable 600px
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+BODY {
+	background-image: url("../img/PatronFondo.png");
+}
+HR {
+	margin:  20px 0;
+	border:  1px groove skyblue;
+}
+/*
+-----------------------------------
+------------- Título --------------
+-----------------------------------
+*/
+
+#cajaTitulo {
+	margin: auto;
+	min-width: 600px;
+	max-width: 1000px;
+	height: 140px;
+	text-align: center;
+	background-color:#93b2ff;
+}
+#cajaTitulo IMG {
+	position: absolute;
+	top: 2px;
+	left: 50%;
+	margin-left: -300px;
+	width: 600px;
+	height: 135px;
+	z-index: 1;
+}
+#cajaTitulo FIGCAPTION {
+	opacity: 0.8;
+	position: absolute;
+	width: 600px;
+	top: 12px;
+	left:50%;
+	margin-left:-300px;
+	z-index: 2;
+}
+#cajaTitulo FIGCAPTION:hover {
+	color: #081d38;
+	cursor: pointer;
+}
+/*
+-----------------------------------
+---------- Menú Principal ---------
+-----------------------------------
+*/
+#cajaMenuPrincipal {
+	margin: auto;
+	padding: 4px 0;
+	min-width: 600px;
+	max-width: 1000px;
+	text-align: center;
+	background-color:#103f77;
+	border-top:3px groove black;
+	border-bottom:3px groove black;
+}
+#cajaMenuPrincipal A,
+#cajaMenuPrincipal UL LI {
+	display: inline-block;
+	padding: 2px 3px;
+	text-decoration: none;
+	list-style: none;
+	background-color: black;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+#cajaMenuPrincipal A {
+	color: firebrick;
+	font-size: 1.1em;
+	background-color: #fcca5f;
+	text-shadow:  1px 1px 1px black;
+}
+#cajaMenuPrincipal A:hover {
+	background-color: skyblue;
+}
+#cajaMenuPrincipal UL LI {
+	margin: 3px;
+	box-shadow:  3px 3px 3px black;
+}
+
+/*
+-----------------------------------
+------------ Contenido ------------
+-----------------------------------
+*/
+#cajaContenido {
+	display: flex;
+	margin: auto;
+	min-width: 600px;
+	max-width: 1000px;
+	background-color: #ffffff;
+}
+#cajaContenido #cajaEntradas {
+	padding: 10px 5px;
+	margin: 5px 20px 10px 3px;
+	flex: 3;
+	border-right: 3px groove skyblue;
+}
+#cajaContenido #cajaEntradas ARTICLE HEADER {
+	margin: 5px 0;
+	color: white;
+	text-align: center;
+	border:  2px groove black;
+	background-color: #103f77;
+	border-radius:  5px;
+	box-shadow: 2px 2px 2px black;
+}
+#cajaContenido #cajaEntradas ARTICLE HEADER H2 {
+	color: red;
+	background-color: #5a71ad;
+	text-shadow: 1px 1px 1px black;
+}
+#cajaContenido #cajaEntradas ARTICLE SECTION {
+	margin: 14px 0;
+}
+#cajaContenido #cajaEntradas ARTICLE SECTION H3 {
+	color: #5a71ad;
+	font-size: 1.3em;
+	text-shadow: 1px 1px 1px black;
+	border-bottom: 3px groove black;
+}
+/*
+-----------------------------------
+-------------- Aside --------------
+-----------------------------------
+*/
+ASIDE {
+	margin: 5px 3px 5px 0;
+	padding: 3px 4px 3px 2px;
+	flex:  1;
+}
+ASIDE H4 {
+	margin: 3px 0;
+	padding: 3px 0;
+	color: red;
+	text-align: center;
+	background-color:#5a71ad;
+	border: 2px groove black;
+	border-radius: 3px;
+	text-shadow:  1px 1px 1px black;
+}
+ASIDE UL {
+	width: 100%;
+	margin: 10px 0;
+}
+ASIDE UL LI {
+	padding: 6px 0;
+	width: 100%;
+	list-style: none;
+}
+ASIDE UL LI:nth-of-type(odd) {
+	background-color:#ffc489;
+}
+ASIDE UL LI:nth-of-type(even) {
+	background-color: #c1ffb5;
+}
+ASIDE UL LI A {
+	width: 100%;
+	font-size: 1.2em;
+	text-decoration:  none;
+	text-shadow:  1px 1px 1px black;
+}
+ASIDE UL LI A:hover {
+	color: black;
+	text-decoration: underline;
+}
+ASIDE UL LI:nth-of-type(odd) A {
+	color: dodgerblue;
+}
+ASIDE UL LI:nth-of-type(even) A {
+	color: grey;
+}
+
+/*
+-----------------------------------
+-------------- Footer -------------
+-----------------------------------
+*/
+
+FOOTER {
+	margin: 0 auto 10px auto;
+	min-width: 600px;
+	max-width: 1000px;
+	border-top:3px groove black;
+	background-color:#103f77;
+}
+FOOTER P {
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+FOOTER P A {
+	color: yellow;
+}
+FOOTER #cajaEnlacesFooter {
+	margin: auto;
+	width: 100%;
+	display: flex;
+}
+FOOTER #cajaEnlacesFooter NAV {
+	flex: 1;
+}
+FOOTER #cajaEnlacesFooter NAV UL {
+	margin: 5px 0;
+	padding: 8px 0;
+	border-top:  3px groove skyblue;
+	border-bottom:  3px groove skyblue;
+}
+FOOTER #cajaEnlacesFooter NAV UL LI {
+	padding: 5px;
+	list-style: none;
+	text-align: center;
+}
+FOOTER #cajaEnlacesFooter NAV UL LI A {
+	margin: auto;
+	padding:  5px ;
+	color:  orange;
+}
+FOOTER #cajaEnlacesFooter NAV UL LI A:hover {
+	color: white;
+}
+FOOTER #cajaEnlacesFooter NAV UL LI A:visited {
+	color: red;
+}
+
+/*
+-----------------------------------
+--------------- Subir -------------
+-----------------------------------
+*/
+#subir {
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+#subir:visited {
+	color: white;
+}
+#subir DIV {
+	font-size: 1.2em;
+	background-color: black;
+}
+#subir DIV:hover {
+	background-color: red;
+}
