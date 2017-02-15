@@ -202,8 +202,16 @@ FOOTER #cajaEnlacesFooter NAV {
 	flex: 1;
 }
 FOOTER #cajaEnlacesFooter NAV UL {
-
+	margin: 5px 0;
+	padding: 8px 0;
+	border-top:  3px groove skyblue;
+	border-bottom:  3px groove skyblue;
 }
 FOOTER #cajaEnlacesFooter NAV UL LI {
-
+	list-style: none;
+	text-align: center;
+}
+FOOTER #cajaEnlacesFooter NAV UL LI A {
+	margin: auto;
+	color:  orange;
 }
