@@ -6,6 +6,9 @@ mínimo ancho adaptable 600px
 	margin: 0;
 	padding: 0;
 }
+BODY {
+	background-image: url("../img/PatronFondo.png");
+}
 
 /*
 -----------------------------------
@@ -17,16 +20,27 @@ mínimo ancho adaptable 600px
 	margin: auto;
 	min-width: 600px;
 	max-width: 1000px;
-	height: 80px;
+	height: 140px;
 	text-align: center;
-	background-color:red;
+	background-color:#597a94;
 }
 #cajaTitulo IMG {
 	position: absolute;
 	top: 2px;
+	left: 50%;
+	margin-left: -300px;
 	width: 600px;
-	height: 75px;
-	z-index: 0;
+	height: 135px;
+	z-index: 1;
+}
+#cajaTitulo FIGCAPTION {
+	opacity: 0.8;
+	position: absolute;
+	width: 600px;
+	top: 12px;
+	left:50%;
+	margin-left:-300px;
+	z-index: 2;
 }
 
 /*
@@ -36,10 +50,12 @@ mínimo ancho adaptable 600px
 */
 #cajaMenuPrincipal {
 	margin: auto;
+	padding: 4px 0;
 	min-width: 600px;
 	max-width: 1000px;
 	text-align: center;
 	background-color:green;
+	border-top:3px groove black;
 }
 #cajaMenuPrincipal A,
 #cajaMenuPrincipal UL LI {
