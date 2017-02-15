@@ -42,7 +42,10 @@ BODY {
 	margin-left:-300px;
 	z-index: 2;
 }
-
+#cajaTitulo FIGCAPTION:hover {
+	color: #081d38;
+	cursor: pointer;
+}
 /*
 -----------------------------------
 ---------- Menú Principal ---------
@@ -54,22 +57,31 @@ BODY {
 	min-width: 600px;
 	max-width: 1000px;
 	text-align: center;
-	background-color:green;
+	background-color:#103f77;
 	border-top:3px groove black;
 }
 #cajaMenuPrincipal A,
 #cajaMenuPrincipal UL LI {
 	display: inline-block;
-	padding: 2px;
+	padding: 2px 3px;
 	text-decoration: none;
 	list-style: none;
-	background-color: yellow;
+	background-color: black;
 	border-radius: 5px;
 	border: 1px solid black;
 }
-
+#cajaMenuPrincipal A {
+	color: firebrick;
+	font-size: 1.1em;
+	background-color: #fcca5f;
+	text-shadow:  1px 1px 1px black;
+}
 #cajaMenuPrincipal A:hover {
 	background-color: skyblue;
+}
+#cajaMenuPrincipal UL LI {
+	margin: 3px;
+	box-shadow:  3px 3px 3px black;
 }
 
 /*
