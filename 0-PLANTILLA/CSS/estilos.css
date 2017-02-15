@@ -223,3 +223,17 @@ FOOTER #cajaEnlacesFooter NAV UL LI A:hover {
 FOOTER #cajaEnlacesFooter NAV UL LI A:visited {
 	color: red;
 }
+
+/*
+-----------------------------------
+--------------- Subir -------------
+-----------------------------------
+*/
+#subir {
+	width: 100%;
+	text-align: center;
+}
+#subir DIV {
+	font-size: 1.2em;
+	background-color: yellow;
+}
