@@ -232,8 +232,15 @@ FOOTER #cajaEnlacesFooter NAV UL LI A:visited {
 #subir {
 	width: 100%;
 	text-align: center;
+	color: white;
+}
+#subir:visited {
+	color: white;
 }
 #subir DIV {
 	font-size: 1.2em;
-	background-color: yellow;
+	background-color: black;
+}
+#subir DIV:hover {
+	background-color: red;
 }
