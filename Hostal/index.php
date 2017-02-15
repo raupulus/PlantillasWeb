@@ -22,6 +22,9 @@
 	</HEAD>
 
 	<BODY>
+		<?php
+			include ('titulo.php');
+		?>
 		<H1>Muestra</H1>
 	</BODY>
 </HTML>
