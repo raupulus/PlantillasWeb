@@ -25,7 +25,7 @@ HR {
 	max-width: 1000px;
 	height: 140px;
 	text-align: center;
-	background-color:#597a94;
+	background-color:#93b2ff;
 }
 #cajaTitulo IMG {
 	position: absolute;
@@ -62,6 +62,7 @@ HR {
 	text-align: center;
 	background-color:#103f77;
 	border-top:3px groove black;
+	border-bottom:3px groove black;
 }
 #cajaMenuPrincipal A,
 #cajaMenuPrincipal UL LI {
@@ -112,6 +113,7 @@ HR {
 	border:  2px groove black;
 	background-color: #103f77;
 	border-radius:  5px;
+	box-shadow: 2px 2px 2px black;
 }
 #cajaContenido #cajaEntradas ARTICLE HEADER H2 {
 	color: red;
@@ -124,9 +126,50 @@ HR {
 -----------------------------------
 */
 ASIDE {
-	margin: 5px 3px;
-	padding: 3px 4px 3px 7px;
+	margin: 5px 3px 5px 0;
+	padding: 3px 4px 3px 2px;
 	flex:  1;
+}
+ASIDE H4 {
+	margin: 3px 0;
+	padding: 3px 0;
+	color: red;
+	text-align: center;
+	background-color:#5a71ad;
+	border: 2px groove black;
+	border-radius: 3px;
+	text-shadow:  1px 1px 1px black;
+}
+ASIDE UL {
+	width: 100%;
+	margin: 10px 0;
+}
+ASIDE UL LI {
+	padding: 6px 0;
+	width: 100%;
+	list-style: none;
+}
+ASIDE UL LI:nth-of-type(odd) {
+	background-color:#ffc489;
+}
+ASIDE UL LI:nth-of-type(even) {
+	background-color: #c1ffb5;
+}
+ASIDE UL LI A {
+	width: 100%;
+	font-size: 1.2em;
+	text-decoration:  none;
+	text-shadow:  1px 1px 1px black;
+}
+ASIDE UL LI A:hover {
+	color: black;
+	text-decoration: underline;
+}
+ASIDE UL LI:nth-of-type(odd) A {
+	color: dodgerblue;
+}
+ASIDE UL LI:nth-of-type(even) A {
+	color: grey;
 }
 
 /*
