@@ -120,6 +120,15 @@ HR {
 	background-color: #5a71ad;
 	text-shadow: 1px 1px 1px black;
 }
+#cajaContenido #cajaEntradas ARTICLE SECTION {
+	margin: 14px 0;
+}
+#cajaContenido #cajaEntradas ARTICLE SECTION H3 {
+	color: #5a71ad;
+	font-size: 1.3em;
+	text-shadow: 1px 1px 1px black;
+	border-bottom: 3px groove black;
+}
 /*
 -----------------------------------
 -------------- Aside --------------
