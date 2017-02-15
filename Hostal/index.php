@@ -18,7 +18,6 @@
 		<!--Metaetiquetas para mostrar WEB en Twitter-->
 		<META name="twitter:title" content="Nombre de la publicación en twitter" />
 		<META name="twitter:description" content="Descripción de la página, máximo 200 caracteres" />
-
 	</HEAD>
 
 	<BODY>
@@ -28,6 +27,5 @@
 			include ('contenido.php');
 			include ('footer.php');
 		?>
-
 	</BODY>
 </HTML>
