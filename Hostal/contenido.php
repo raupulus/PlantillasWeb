@@ -1,5 +1,3 @@
-		<DIV id="cajaContenido">
-			<DIV id="cajaEntradas">
 				<ARTICLE>
 					<HEADER>
 						<H2>Título de la Sección</H2>
@@ -37,7 +35,7 @@
 						<P>Datos del apartado 2 (Relacionado con el 1 de la segunda sección)</P>
 					</SECTION>
 				</ARTICLE>
-			</DIV>
+
 
 			<ASIDE>
 				<H4>Menú de navegación</H4>
@@ -49,4 +47,3 @@
 				</UL>
 				<P>Descripción del apartado, datos, imagenes, banner, enlaces externos......</P>
 			</ASIDE>
-		</DIV>
