@@ -1,10 +1,10 @@
 			<ASIDE>
 				<H4>Consultas Rápidas</H4>
 				<UL>
-					<LI><A href="#" title="Link 1">Crear Cliente</A></LI>
-					<LI><A href="#" title="Link 1">Ver habitaciones libres</A></LI>
-					<LI><A href="#" title="Link 3">Crear Reserva</A></LI>
-					<LI><A href="#" title="Link 4">Eliminar Reserva</A></LI>
-					<LI><A href="#" title="Link 5">Ver calendario</A></LI>
+					<LI><A href="#" title="Crear nuevo cliente">Crear Cliente</A></LI>
+					<LI><A href="#" title="Ver habitaciones libres">Ver habitaciones libres</A></LI>
+					<LI><A href="#" title="Crear nueva reserva">Crear Reserva</A></LI>
+					<LI><A href="#" title="Eliminar Reserva">Eliminar Reserva</A></LI>
+					<LI><A href="#" title="Ver calendario">Ver calendario</A></LI>
 				</UL>
 			</ASIDE>
