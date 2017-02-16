@@ -24,7 +24,15 @@
 		<?php
 			include ('titulo.php');
 			include ('menu-principal.php');
-			include ('contenido.php');
+		?>
+				<DIV id="cajaContenido">
+					<DIV id="cajaEntradas">
+						<?php include ('contenido.php');?>
+
+					</DIV>
+						<?php include ('aside.php');?>
+				</DIV>
+		<?php
 			include ('footer.php');
 		?>
 	</BODY>
