@@ -13,12 +13,48 @@ HR {
 	margin:  20px 0;
 	border:  1px groove skyblue;
 }
+
+/*
+-----------------------------------
+------------- TABLAS --------------
+-----------------------------------
+*/
+TABLE {
+
+}
+
+ARTICLE SECTION TABLE {
+	margin: 10px 0;
+	padding: 5px;
+	width: 100%;
+	border: 3px solid black;
+}
+ARTICLE SECTION TABLE TR {
+
+}
+ARTICLE SECTION TABLE TR TD {
+
+}
+ARTICLE SECTION TABLE TR TD:nth-of-type(odd) {
+
+}
+ARTICLE SECTION TABLE TR TD:nth-of-type(even) {
+
+}
+ARTICLE SECTION TABLE TR TD:nth-of-type(odd):hover {
+
+}
+ARTICLE SECTION TABLE TR TD:nth-of-type(even):hover{
+
+}
+
+
+
 /*
 -----------------------------------
 ------------- Título --------------
 -----------------------------------
 */
-
 #cajaTitulo {
 	margin: auto;
 	min-width: 600px;
