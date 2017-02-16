@@ -28,13 +28,28 @@
 				<P>Clientes que tienen reserva</P>
 				<TABLE>
 					<TR>
-						<TD>Nombre</TD>
-						<TD>Teléfono</TD>
-						<TD>Ciudad</TD>
-						<TD>Nº Habitación</TD>
+						<TH>Nombre</TH>
+						<TH>Apellidos</TH>
+						<TH>Teléfono</TH>
+						<TH>Ciudad</TH>
+						<TH>Nº Habitación</TH>
 					</TR>
 
 					<!--Temporal para diseño, esta parte se llena con la BD-->
+					<TR>
+						<TD>Pepe</TD>
+						<TD>Mero Calistro</TD>
+						<TD>612123123</TD>
+						<TD>Chipiona</TD>
+						<TD>13</TD>
+					</TR>
+					<TR>
+						<TD>Ana</TD>
+						<TD>Corneta Quemada</TD>
+						<TD>6987987</TD>
+						<TD>Sevilla</TD>
+						<TD>11</TD>
+					</TR>
 					<TR>
 						<TD>Pepe</TD>
 						<TD>Mero Calistro</TD>
@@ -62,11 +77,11 @@
 				<P>Clientes que tienen no tienen reserva</P>
 				<TABLE>
 					<TR>
-						<TD>Nombre</TD>
-						<TD>Apellidos</TD>
-						<TD>Teléfono</TD>
-						<TD>Ciudad</TD>
-						<TD>Nº Habitación</TD>
+						<TH>Nombre</TH>
+						<TH>Apellidos</TH>
+						<TH>Teléfono</TH>
+						<TH>Ciudad</TH>
+						<TH>Nº Habitación</TH>
 					</TR>
 
 					<!--Temporal para diseño, esta parte se llena con la BD-->
