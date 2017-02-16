@@ -12,8 +12,8 @@
 		<?php
 			include ('titulo.php');
 			include ('menu-principal.php');
-			echo '<DIV id="cajaContenido">';
-			echo '<DIV id="cajaEntradas">';
+			echo '<DIV id="cajaContenido"><BR/>';
+			echo '<DIV id="cajaEntradas"><BR/>';
 		?>
 
 		<ARTICLE>
@@ -109,8 +109,8 @@
 		</ARTICLE>
 
 		<?php
-			echo '</DIV>';
-			echo '</DIV>';
+			echo '</DIV><BR/>';
+			echo '</DIV><BR/>';
 			include ('footer.php');
 		?>
 	</BODY>
