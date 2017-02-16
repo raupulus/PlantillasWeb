@@ -25,7 +25,7 @@ HR {
 	max-width: 1000px;
 	height: 140px;
 	text-align: center;
-	background-color:#93b2ff;
+	background-color:#dee6fc;
 }
 #cajaTitulo IMG {
 	position: absolute;
@@ -48,6 +48,16 @@ HR {
 #cajaTitulo FIGCAPTION:hover {
 	color: #081d38;
 	cursor: pointer;
+}
+#cajaTitulo FIGCAPTION H1 {
+	color: dodgerblue;
+	text-shadow: 1px 1px 1px black;
+}
+#cajaTitulo FIGCAPTION P {
+	font-size: 1.2em;
+	font-weight: bolder;
+	color: yellow;
+	text-shadow: 1px 1px 1px black;
 }
 /*
 -----------------------------------
