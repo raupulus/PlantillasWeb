@@ -8,7 +8,7 @@
 		<META name="keywords" content="administración, hotel, plantilla, web, fryntiz" /><!--Etiquetas-->
 		<META name="subject" content="Web para administrar Hotel" /><!--Descripción cortísima-->
 		<META name="description" content="" /><!--Breve resumen-->
-		<META name='revised' content='Tuesday, February 12th, 2017, 13:22 pm' /><!--Última revisión del sitio-->
+		<META name='revised' content='Tuesday, February 13th, 2017, 13:22 pm' /><!--Última revisión del sitio-->
 
 		<!--Metaetiquetas para mostrar WEB en Facebook-->
 		<META property='og:title' content='Titulo de la página' />
