@@ -23,7 +23,7 @@
 	<BODY>
 		<?php
 			include ('titulo.php');
-			include ('menuprincipal.php');
+			include ('menu-principal.php');
 			include ('contenido.php');
 			include ('footer.php');
 		?>
