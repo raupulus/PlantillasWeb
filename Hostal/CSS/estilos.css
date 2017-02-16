@@ -25,29 +25,30 @@ TABLE {
 
 ARTICLE SECTION TABLE {
 	margin: 10px 0;
-	padding: 5px;
+	padding: 0;
 	width: 100%;
 	border: 3px solid black;
+	border-spacing: 0;
 }
-ARTICLE SECTION TABLE TR {
-
+ARTICLE SECTION TABLE TH {
+	padding: 5px 1px;
+	font-size: 1.2em;
+	font-weight: bolder;
+	color: red;
+	background-color: black;
+}
+ARTICLE SECTION TABLE TR:nth-of-type(odd) {
+	background-color: orange;
+}
+ARTICLE SECTION TABLE TR:nth-of-type(even) {
+	background-color: darkkhaki;
 }
 ARTICLE SECTION TABLE TR TD {
-
+	padding: 5px 1px;
+	font-size: 1.1em;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
-ARTICLE SECTION TABLE TR TD:nth-of-type(odd) {
-
-}
-ARTICLE SECTION TABLE TR TD:nth-of-type(even) {
-
-}
-ARTICLE SECTION TABLE TR TD:nth-of-type(odd):hover {
-
-}
-ARTICLE SECTION TABLE TR TD:nth-of-type(even):hover{
-
-}
-
 
 
 /*
