@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <HTML lang="es">
 	<HEAD>
-		<TITLE>Titulo del sitio</TITLE>
+		<TITLE>Administración Hotel</TITLE>
 		<?php //Metaetiquetas globales importadas
 				include ('metaetiquetas-generales.php');
 			?>
-		<META name="keywords" content="etiquetas, clave, plantilla, web, fryntiz" /><!--Etiquetas-->
-		<META name="subject" content="Descripción muy muy muy breve" /><!--Descripción cortísima-->
-		<META name="description" content="Breve Resumen de la página WEB" /><!--Breve resumen-->
+		<META name="keywords" content="administración, hotel, plantilla, web, fryntiz" /><!--Etiquetas-->
+		<META name="subject" content="Web para administrar Hotel" /><!--Descripción cortísima-->
+		<META name="description" content="" /><!--Breve resumen-->
 		<META name='revised' content='Tuesday, February 12th, 2017, 13:22 pm' /><!--Última revisión del sitio-->
 
 		<!--Metaetiquetas para mostrar WEB en Facebook-->
