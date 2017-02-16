@@ -31,6 +31,7 @@ ARTICLE SECTION TABLE {
 	border-spacing: 0;
 }
 ARTICLE SECTION TABLE TH {
+	text-align: left;
 	padding: 5px 1px;
 	font-size: 1.2em;
 	font-weight: bolder;
