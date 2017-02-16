@@ -33,6 +33,24 @@
 						<TD>Ciudad</TD>
 						<TD>Nº Habitación</TD>
 					</TR>
+
+					<!--Temporal para diseño, esta parte se llena con la BD-->
+					<TR>
+						<TD>Pepe</TD>
+						<TD>Mero Calistro</TD>
+						<TD>612123123</TD>
+						<TD>Chipiona</TD>
+						<TD>13</TD>
+					</TR>
+					<TR>
+						<TD>Ana</TD>
+						<TD>Corneta Quemada</TD>
+						<TD>6987987</TD>
+						<TD>Sevilla</TD>
+						<TD>11</TD>
+					</TR>
+					<!--Fin de la parte temporal-->
+
 					<?php
 
 					?>
@@ -45,10 +63,29 @@
 				<TABLE>
 					<TR>
 						<TD>Nombre</TD>
+						<TD>Apellidos</TD>
 						<TD>Teléfono</TD>
 						<TD>Ciudad</TD>
 						<TD>Nº Habitación</TD>
 					</TR>
+
+					<!--Temporal para diseño, esta parte se llena con la BD-->
+					<TR>
+						<TD>Pepe</TD>
+						<TD>Mero Calistro</TD>
+						<TD>612123123</TD>
+						<TD>Chipiona</TD>
+						<TD>13</TD>
+					</TR>
+					<TR>
+						<TD>Ana</TD>
+						<TD>Corneta Quemada</TD>
+						<TD>6987987</TD>
+						<TD>Sevilla</TD>
+						<TD>11</TD>
+					</TR>
+					<!--Fin de la parte temporal-->
+
 					<?php
 
 					?>
