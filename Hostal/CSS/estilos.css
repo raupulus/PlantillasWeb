@@ -301,6 +301,18 @@ FOOTER #cajaEnlacesFooter NAV UL LI A:visited {
 	text-decoration: underline;
 }
 
+/*
+-----------------------------------
+------------- Buscar --------------
+-----------------------------------
+*/
+.buscar FORM {
+	margin: auto;
+	text-align: right;
+}
+#busqueda {
+	display: none;
+}
 
 /*
 -----------------------------------
