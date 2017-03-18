@@ -28,16 +28,18 @@
 			</DIV>
 
 			<SECTION>
-				<H3>Ocupadas toda la semana</H3>
-				<P>Habitaciones ocupadas para toda la semana actual completa</P>
+				<H3>Reservas los próximos 10 días</H3>
+				<P>Habitaciones reservadas en los próximos 10 días</P>
 				<TABLE>
 					<TR>
-						<TH>Nº<BR />Habitación</TH>
-						<TH>Nombre<BR />Habitación</TH>
+						<TH>Nº</TH>
+						<TH>Nombre</TH>
 						<TH>Días</TH>
 						<TH>Precio</TH>
 						<TH>Fecha<BR />Entrada</TH>
 						<TH>Fecha<BR />Salida</TH>
+						<TH>Cliente</TH>
+						<TH>Teléfono</TH>
 					</TR>
 
 					<!--Temporal para diseño, esta parte se llena con la BD-->
@@ -48,6 +50,8 @@
 						<TD>678€</TD>
 						<TD>04-02-2017</TD>
 						<TD>11-02-2017</TD>
+						<TD>Antonio</TD>
+						<TD>634678678</TD>
 					</TR>
 					<TR>
 						<TD>5</TD>
@@ -56,6 +60,8 @@
 						<TD>131€</TD>
 						<TD>04-02-2017</TD>
 						<TD>11-02-2017</TD>
+						<TD>Pepe</TD>
+						<TD>634678678</TD>
 					</TR>
 					<TR>
 						<TD>7</TD>
@@ -64,6 +70,8 @@
 						<TD>1533€</TD>
 						<TD>04-02-2017</TD>
 						<TD>11-02-2017</TD>
+						<TD>Ana</TD>
+						<TD>634678678</TD>
 					</TR>
 					<TR>
 						<TD>2</TD>
@@ -72,6 +80,8 @@
 						<TD>391€</TD>
 						<TD>04-02-2017</TD>
 						<TD>11-02-2017</TD>
+						<TD>Marcos</TD>
+						<TD>634678678</TD>
 					</TR>
 					<!--Fin de la parte temporal-->
 
@@ -82,35 +92,60 @@
 			</SECTION>
 
 			<SECTION>
-				<H3>Sin reserva en esta semana</H3>
-				<P>Habitaciones que tienen no tienen reserva para la semana actual</P>
+				<H3>Todas las reservas</H3>
+				<P>Se muestran todas las reservas</P>
 				<TABLE>
 					<TR>
-						<TH>Nº Habitación</TH>
-						<TH>Fecha de Entrada</TH>
-						<TH>Fecha de Salida</TH>
+						<TH>Nº</TH>
+						<TH>Nombre</TH>
+						<TH>Días</TH>
+						<TH>Precio</TH>
+						<TH>Fecha<BR />Entrada</TH>
+						<TH>Fecha<BR />Salida</TH>
+						<TH>Cliente</TH>
+						<TH>Teléfono</TH>
 					</TR>
 
 					<!--Temporal para diseño, esta parte se llena con la BD-->
 					<TR>
 						<TD>4</TD>
+						<TD>Habitación Simple</TD>
+						<TD>11 Días</TD>
+						<TD>678€</TD>
 						<TD>04-02-2017</TD>
 						<TD>11-02-2017</TD>
+						<TD>Luis</TD>
+						<TD>634678678</TD>
 					</TR>
 					<TR>
-						<TD>4</TD>
+						<TD>5</TD>
+						<TD>Habitación Doble</TD>
+						<TD>2 Días</TD>
+						<TD>131€</TD>
 						<TD>04-02-2017</TD>
 						<TD>11-02-2017</TD>
+						<TD>Maria</TD>
+						<TD>634678678</TD>
 					</TR>
 					<TR>
-						<TD>4</TD>
+						<TD>7</TD>
+						<TD>Habitación Triple</TD>
+						<TD>23 Días</TD>
+						<TD>1533€</TD>
 						<TD>04-02-2017</TD>
 						<TD>11-02-2017</TD>
+						<TD>Alejandro</TD>
+						<TD>634678678</TD>
 					</TR>
 					<TR>
-						<TD>4</TD>
+						<TD>2</TD>
+						<TD>Habitación Cuádruple</TD>
+						<TD>5 Días</TD>
+						<TD>391€</TD>
 						<TD>04-02-2017</TD>
 						<TD>11-02-2017</TD>
+						<TD>Josefa</TD>
+						<TD>634678678</TD>
 					</TR>
 					<!--Fin de la parte temporal-->
 
@@ -119,6 +154,10 @@
 					?>
 				</TABLE>
 			</SECTION>
+
+			<DIV class="agregar">
+				Buscar Reserva
+			</DIV>
 		</ARTICLE>
 
 		<?php
