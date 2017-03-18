@@ -31,21 +31,23 @@ ARTICLE SECTION TABLE {
 	border-spacing: 0;
 }
 ARTICLE SECTION TABLE TH {
-	text-align: left;
+	text-align: center;
 	padding: 5px 1px;
 	font-size: 1.2em;
 	font-weight: bolder;
-	color: red;
-	background-color: black;
+	color: orange;
+	background-color: #0e2472;
 }
 ARTICLE SECTION TABLE TR:nth-of-type(odd) {
-	background-color: orange;
+	background-color: #adc3ff;
 }
 ARTICLE SECTION TABLE TR:nth-of-type(even) {
-	background-color: darkkhaki;
+	background-color: #7baafc;
 }
 ARTICLE SECTION TABLE TR TD {
 	padding: 5px 1px;
+	text-align: center;
+	color: #0e2472;
 	font-size: 1.1em;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
@@ -287,7 +289,7 @@ FOOTER #cajaEnlacesFooter NAV UL LI A:visited {
 -----------------------------------
 */
 .agregar {
-	padding:  10px 8px;
+	padding: 10px 8px;
 	cursor: pointer;
 	font-size: 1.4em;
 	text-align: right;
