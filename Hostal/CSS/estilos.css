@@ -283,6 +283,24 @@ FOOTER #cajaEnlacesFooter NAV UL LI A:visited {
 
 /*
 -----------------------------------
+------------- Agregar -------------
+-----------------------------------
+*/
+.agregar {
+	padding:  10px 8px;
+	cursor: pointer;
+	font-size: 1.4em;
+	text-align: right;
+	color: darkcyan;
+	font-weight: bolder;
+}
+.agregar:hover {
+	text-decoration: underline;
+}
+
+
+/*
+-----------------------------------
 --------------- Subir -------------
 -----------------------------------
 */
