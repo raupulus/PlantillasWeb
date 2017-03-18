@@ -125,6 +125,41 @@
 					?>
 				</TABLE>
 			</SECTION>
+
+			<SECTION>
+				<H3>Clientes que nunca han reservados</H3>
+				<P>Clientes que no han creado nuna una reserva</P>
+				<TABLE>
+					<TR>
+						<TH>Nombre</TH>
+						<TH>Apellidos</TH>
+						<TH>Teléfono</TH>
+						<TH>Provincia</TH>
+						<TH>Ciudad</TH>
+					</TR>
+
+					<!--Temporal para diseño, esta parte se llena con la BD-->
+					<TR>
+						<TD>Pepe</TD>
+						<TD>Mero Calistro</TD>
+						<TD>612123123</TD>
+						<TD>Cádiz</TD>
+						<TD>Chipiona</TD>
+					</TR>
+					<TR>
+						<TD>Ana</TD>
+						<TD>Corneta Quemada</TD>
+						<TD>6987987</TD>
+						<TD>Sevilla</TD>
+						<TD>Dos Hermanas</TD>
+					</TR>
+					<!--Fin de la parte temporal-->
+
+					<?php
+
+					?>
+				</TABLE>
+			</SECTION>
 		</ARTICLE>
 
 		<?php
