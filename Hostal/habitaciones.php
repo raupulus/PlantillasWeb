@@ -24,8 +24,8 @@
 			</HEADER>
 
 			<SECTION>
-				<H3>Reservas los próximos 10 días</H3>
-				<P>Habitaciones reservadas en los próximos 10 días</P>
+				<H3>Listado de Habitaciones</H3>
+				<P>El siguiente listado muestra todas las habitaciones existentes</P>
 				<TABLE>
 					<TR>
 						<TH>Nº</TH>
