@@ -24,70 +24,83 @@
 			</HEADER>
 
 			<SECTION>
-				<H3>Ocupadas toda la semana</H3>
-				<P>Habitaciones ocupadas para toda la semana completa</P>
+				<H3>Reservas los próximos 10 días</H3>
+				<P>Habitaciones reservadas en los próximos 10 días</P>
 				<TABLE>
 					<TR>
-						<TH>Nº Habitación</TH>
-						<TH>Fecha de Entrada</TH>
-						<TH>Fecha de Salida</TH>
-					</TR>
-
-					<!--Temporal para diseño, esta parte se llena con la BD-->
-					<TR>
-						<TD>Pepe</TD>
-						<TD>Mero Calistro</TD>
-						<TD>612123123</TD>
-					</TR>
-					<TR>
-						<TD>Ana</TD>
-						<TD>Corneta Quemada</TD>
-						<TD>6987987</TD>
-					</TR>
-					<TR>
-						<TD>Pepe</TD>
-						<TD>Mero Calistro</TD>
-						<TD>612123123</TD>
-					</TR>
-					<TR>
-						<TD>Ana</TD>
-						<TD>Corneta Quemada</TD>
-						<TD>6987987</TD>
-					</TR>
-					<!--Fin de la parte temporal-->
-
-					<?php
-
-					?>
-				</TABLE>
-			</SECTION>
-
-			<SECTION>
-				<H3>Sin reserva en este momento</H3>
-				<P>Clientes que tienen no tienen reserva</P>
-				<TABLE>
-					<TR>
+						<TH>Nº</TH>
 						<TH>Nombre</TH>
-						<TH>Apellidos</TH>
-						<TH>Teléfono</TH>
-						<TH>Ciudad</TH>
-						<TH>Nº Habitación</TH>
+						<TH>Precio Base</TH>
+						<TH>Descripción</TH>
 					</TR>
 
 					<!--Temporal para diseño, esta parte se llena con la BD-->
 					<TR>
-						<TD>Pepe</TD>
-						<TD>Mero Calistro</TD>
-						<TD>612123123</TD>
-						<TD>Chipiona</TD>
-						<TD>13</TD>
+						<TD>1</TD>
+						<TD>Habitación Simple</TD>
+						<TD>50€</TD>
+						<TD>Habitación sin vistas al exterior</TD>
 					</TR>
 					<TR>
-						<TD>Ana</TD>
-						<TD>Corneta Quemada</TD>
-						<TD>6987987</TD>
-						<TD>Sevilla</TD>
+						<TD>2</TD>
+						<TD>Habitación Doble</TD>
+						<TD>50€</TD>
+						<TD>Habitación con dos camas</TD>
+					</TR><TR>
+						<TD>3</TD>
+						<TD>Habitación Triple</TD>
+						<TD>50€</TD>
+						<TD>Habitación con tres camas</TD>
+					</TR><TR>
+						<TD>4</TD>
+						<TD>Habitación Cuádruple</TD>
+						<TD>50€</TD>
+						<TD>Habitación con cuatro camas</TD>
+					</TR><TR>
+						<TD>5</TD>
+						<TD>Habitación Simple</TD>
+						<TD>50€</TD>
+						<TD>Habitación sin vistas al exterior</TD>
+					</TR><TR>
+						<TD>6</TD>
+						<TD>Habitación Simple</TD>
+						<TD>50€</TD>
+						<TD>Habitación sin vistas al exterior</TD>
+					</TR><TR>
+						<TD>7</TD>
+						<TD>Habitación Simple</TD>
+						<TD>50€</TD>
+						<TD>Habitación sin vistas al exterior</TD>
+					</TR><TR>
+						<TD>8</TD>
+						<TD>Habitación Simple</TD>
+						<TD>50€</TD>
+						<TD>Habitación sin vistas al exterior</TD>
+					</TR><TR>
+						<TD>9</TD>
+						<TD>Habitación Simple</TD>
+						<TD>50€</TD>
+						<TD>Habitación sin vistas al exterior</TD>
+					</TR><TR>
+						<TD>10</TD>
+						<TD>Habitación Simple</TD>
+						<TD>50€</TD>
+						<TD>Habitación sin vistas al exterior</TD>
+					</TR><TR>
 						<TD>11</TD>
+						<TD>Habitación Simple</TD>
+						<TD>50€</TD>
+						<TD>Habitación sin vistas al exterior</TD>
+					</TR><TR>
+						<TD>12</TD>
+						<TD>Habitación Simple</TD>
+						<TD>50€</TD>
+						<TD>Habitación sin vistas al exterior</TD>
+					</TR><TR>
+						<TD>13</TD>
+						<TD>Habitación Simple</TD>
+						<TD>50€</TD>
+						<TD>Habitación sin vistas al exterior</TD>
 					</TR>
 					<!--Fin de la parte temporal-->
 
