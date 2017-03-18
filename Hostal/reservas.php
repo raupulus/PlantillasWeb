@@ -27,7 +27,11 @@
 				+Nueva Reserva
 			</DIV>
 
-			<DIV class="buscar">
+			<DIV class="agregar mostrarBuscar" onClick="document.getElementById('buscar').style.display = 'block';">
+				Buscar Reserva
+			</DIV>
+
+			<DIV id="buscar">
 				<FORM>
 					<INPUT type="button" value="Buscar" onClick="document.getElementById('busqueda').style.display = 'block';"/>
 					Día <INPUT type="search" />
