@@ -47,8 +47,8 @@
 						<TD>Pepe</TD>
 						<TD>Mero Calistro</TD>
 						<TD>612123123</TD>
-						<TD>Chipiona</TD>
 						<TD>Cádiz</TD>
+						<TD>Chipiona</TD>
 						<TD>13</TD>
 						<TD>2 días</TD>
 						<TD>112€</TD>
@@ -67,8 +67,8 @@
 						<TD>Pepe</TD>
 						<TD>Mero Calistro</TD>
 						<TD>612123123</TD>
-						<TD>Chipiona</TD>
 						<TD>Cádiz</TD>
+						<TD>Chipiona</TD>
 						<TD>13</TD>
 						<TD>8 días</TD>
 						<TD>392€</TD>
@@ -99,8 +99,8 @@
 						<TH>Nombre</TH>
 						<TH>Apellidos</TH>
 						<TH>Teléfono</TH>
+						<TH>Provincia</TH>
 						<TH>Ciudad</TH>
-						<TH>Nº Habitación</TH>
 					</TR>
 
 					<!--Temporal para diseño, esta parte se llena con la BD-->
@@ -108,15 +108,15 @@
 						<TD>Pepe</TD>
 						<TD>Mero Calistro</TD>
 						<TD>612123123</TD>
+						<TD>Cádiz</TD>
 						<TD>Chipiona</TD>
-						<TD>13</TD>
 					</TR>
 					<TR>
 						<TD>Ana</TD>
 						<TD>Corneta Quemada</TD>
 						<TD>6987987</TD>
 						<TD>Sevilla</TD>
-						<TD>11</TD>
+						<TD>Dos Hermanas</TD>
 					</TR>
 					<!--Fin de la parte temporal-->
 
