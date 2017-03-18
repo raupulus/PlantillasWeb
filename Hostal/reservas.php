@@ -23,6 +23,10 @@
 				<TIME datetime="2017-02-14T01:20:00+01:00"><SMALL>Último reserva realizada 14-02-2017 a las 01:20</SMALL></TIME>
 			</HEADER>
 
+			<DIV class="agregar">
+				+Nueva Reserva
+			</DIV>
+
 			<SECTION>
 				<H3>Ocupadas toda la semana</H3>
 				<P>Habitaciones ocupadas para toda la semana completa</P>
