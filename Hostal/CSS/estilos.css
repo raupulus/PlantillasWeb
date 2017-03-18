@@ -24,9 +24,10 @@ TABLE {
 }
 
 ARTICLE SECTION TABLE {
-	margin: 10px 0;
+	margin: 10px auto;
 	padding: 0;
 	width: 100%;
+	text-align: center;
 	border: 3px solid black;
 	border-spacing: 0;
 }
