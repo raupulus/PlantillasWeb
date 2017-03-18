@@ -27,6 +27,36 @@
 				+Nuevo Cliente
 			</DIV>
 
+			<DIV class="agregar mostrarBuscar" onClick="document.getElementById('buscar').style.display = 'block';">
+				Buscar Cliente
+			</DIV>
+
+			<DIV id="buscar">
+				<FORM>
+					<INPUT type="button" value="Buscar" onClick="document.getElementById('busqueda').style.display = 'block';"/>
+					Nombre <INPUT type="search" />
+					Apellidos <INPUT type="search" />
+					<BR /><BR />
+					DNI <INPUT type="search" />
+					Teléfono <INPUT type="search" />
+				</FORM>
+			</DIV>
+
+			<SECTION id="busqueda"><!--No se muestra hasta que se pulsa buscar-->
+				<H3>Resultado de la búsqueda</H3>
+				<P>Las coincidencias con la búsqueda son:</P>
+				<TABLE>
+					<TR>
+						<TH>Nombre</TH>
+						<TH>Apellidos</TH>
+						<TH>Teléfono</TH>
+						<TH>Provincia</TH>
+						<TH>Ciudad</TH>
+						<TH>Tiene Reservas</TH>
+					</TR>
+				</TABLE>
+			</SECTION>
+
 			<SECTION>
 				<H3>Con reserva en este momento</H3>
 				<P>Clientes que tienen reserva</P>
