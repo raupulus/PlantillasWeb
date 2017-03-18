@@ -27,6 +27,32 @@
 				+Nueva Reserva
 			</DIV>
 
+			<DIV class="buscar">
+				<FORM>
+					<INPUT type="button" value="Buscar" onClick="document.getElementById('busqueda').style.display = 'block';"/>
+					Día <INPUT type="search" />
+					Mes <INPUT type="search" />
+					Habitación <INPUT type="search" />
+				</FORM>
+			</DIV>
+
+			<SECTION id="busqueda"><!--No se muestra hasta que se pulsa buscar-->
+				<H3>Resultado de la búsqueda</H3>
+				<P>Las coincidencias con la búsqueda son:</P>
+				<TABLE>
+					<TR>
+						<TH>Nº</TH>
+						<TH>Nombre</TH>
+						<TH>Días</TH>
+						<TH>Precio</TH>
+						<TH>Fecha<BR />Entrada</TH>
+						<TH>Fecha<BR />Salida</TH>
+						<TH>Cliente</TH>
+						<TH>Teléfono</TH>
+					</TR>
+				</TABLE>
+			</SECTION>
+
 			<SECTION>
 				<H3>Reservas los próximos 10 días</H3>
 				<P>Habitaciones reservadas en los próximos 10 días</P>
@@ -154,10 +180,6 @@
 					?>
 				</TABLE>
 			</SECTION>
-
-			<DIV class="agregar">
-				Buscar Reserva
-			</DIV>
 		</ARTICLE>
 
 		<?php
