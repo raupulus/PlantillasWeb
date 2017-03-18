@@ -29,32 +29,47 @@
 
 			<SECTION>
 				<H3>Ocupadas toda la semana</H3>
-				<P>Habitaciones ocupadas para toda la semana completa</P>
+				<P>Habitaciones ocupadas para toda la semana actual completa</P>
 				<TABLE>
 					<TR>
-						<TH>Nº Habitación</TH>
-						<TH>Fecha de Entrada</TH>
-						<TH>Fecha de Salida</TH>
+						<TH>Nº<BR />Habitación</TH>
+						<TH>Nombre<BR />Habitación</TH>
+						<TH>Días</TH>
+						<TH>Precio</TH>
+						<TH>Fecha<BR />Entrada</TH>
+						<TH>Fecha<BR />Salida</TH>
 					</TR>
 
 					<!--Temporal para diseño, esta parte se llena con la BD-->
 					<TR>
 						<TD>4</TD>
+						<TD>Habitación Simple</TD>
+						<TD>11 Días</TD>
+						<TD>678€</TD>
 						<TD>04-02-2017</TD>
 						<TD>11-02-2017</TD>
 					</TR>
 					<TR>
-						<TD>4</TD>
+						<TD>5</TD>
+						<TD>Habitación Doble</TD>
+						<TD>2 Días</TD>
+						<TD>131€</TD>
 						<TD>04-02-2017</TD>
 						<TD>11-02-2017</TD>
 					</TR>
 					<TR>
-						<TD>4</TD>
+						<TD>7</TD>
+						<TD>Habitación Triple</TD>
+						<TD>23 Días</TD>
+						<TD>1533€</TD>
 						<TD>04-02-2017</TD>
 						<TD>11-02-2017</TD>
 					</TR>
 					<TR>
-						<TD>4</TD>
+						<TD>2</TD>
+						<TD>Habitación Cuádruple</TD>
+						<TD>5 Días</TD>
+						<TD>391€</TD>
 						<TD>04-02-2017</TD>
 						<TD>11-02-2017</TD>
 					</TR>
@@ -67,8 +82,8 @@
 			</SECTION>
 
 			<SECTION>
-				<H3>Sin reserva en este momento</H3>
-				<P>Habitaciones que tienen no tienen reserva</P>
+				<H3>Sin reserva en esta semana</H3>
+				<P>Habitaciones que tienen no tienen reserva para la semana actual</P>
 				<TABLE>
 					<TR>
 						<TH>Nº Habitación</TH>
