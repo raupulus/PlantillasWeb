@@ -23,7 +23,7 @@
 				<TIME datetime="2017-02-14T01:20:00+01:00"><SMALL>Último cliente registrado 14-02-2017 a las 01:20</SMALL></TIME>
 			</HEADER>
 
-			<DIV class="agregar">
+			<DIV class="agregar" onClick="location.href = 'form-clientes.php'">
 				+Nuevo Cliente
 			</DIV>
 
