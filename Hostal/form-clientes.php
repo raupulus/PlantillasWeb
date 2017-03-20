@@ -42,7 +42,7 @@
 					Código Postal <INPUT type="search" /><BR /><BR />
 					Dirección <INPUT type="search" /><BR /><BR />
 					Teléfono <INPUT type="search" /><BR /><BR />
-					Observación <INPUT type="text" /><BR /><BR />
+					Observación <INPUT type="textarea" /><BR /><BR />
 				</FORM>
 			</SECTION>
 		</ARTICLE>
