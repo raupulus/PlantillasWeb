@@ -24,6 +24,12 @@
 				<TIME datetime="2017-02-14T01:20:00+01:00"><SMALL>Último cliente añadido 14-02-2017 a las 01:20</SMALL></TIME>
 			</HEADER>
 
+			<SECTION>
+				<H3>Nuevo Cliente</H3>
+				<P>
+					Rellena los siguientes datos, los que tienen "*" son obligatorios
+				</P>
+			</SECTION>
 		</ARTICLE>
 		<?php
 			echo '</DIV><BR/>';
