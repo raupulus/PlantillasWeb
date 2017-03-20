@@ -29,6 +29,21 @@
 				<P>
 					Rellena los siguientes datos, los que tienen "*" son obligatorios
 				</P>
+
+				<FORM id="formCliente">
+					Nombre<INPUT type="search" /><BR /><BR />
+					Apellidos<INPUT type="search" /><BR /><BR />
+					DNI<INPUT type="search" /><BR /><BR />
+					Sexo<INPUT type="search" /><BR /><BR />
+					Fecha Nacimiento<INPUT type="search" /><BR /><BR />
+					País<INPUT type="search" /><BR /><BR />
+					Provincia<INPUT type="search" /><BR /><BR />
+					Ciudad<INPUT type="search" /><BR /><BR />
+					Código Postal<INPUT type="search" /><BR /><BR />
+					Dirección<INPUT type="search" /><BR /><BR />
+					Teléfono<INPUT type="search" /><BR /><BR />
+					Observación<INPUT type="text" /><BR /><BR />
+				</FORM>
 			</SECTION>
 		</ARTICLE>
 		<?php
