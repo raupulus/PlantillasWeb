@@ -30,6 +30,14 @@
 					Rellena los siguientes datos, los que tienen "*" son obligatorios
 				</P>
 
+				<FORM id="formCliente">
+					Nº Habitación <INPUT type="search" /><BR /><BR />
+					Fecha de Entrada <INPUT type="search" /><BR /><BR />
+					Fecha de Salida <INPUT type="search" /><BR /><BR />
+					DNI <INPUT type="search" /><BR /><BR />
+					Precio <INPUT type="search" /><BR /><BR />
+					Observación <INPUT type="textarea" /><BR /><BR />
+				</FORM>
 			</SECTION>
 		</ARTICLE>
 		<?php
