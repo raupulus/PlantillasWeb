@@ -193,7 +193,7 @@ ASIDE {
 ASIDE H4 {
 	margin: 3px 0;
 	padding: 3px 0;
-	color: red;
+	color: white;
 	text-align: center;
 	background-color:#5a71ad;
 	border: 2px groove black;
@@ -205,17 +205,20 @@ ASIDE UL {
 	margin: 10px 0;
 }
 ASIDE UL LI {
+	margin: 5px 0;
 	padding: 6px 0;
 	width: 100%;
 	list-style: none;
+	border-radius: 5px;
 }
 ASIDE UL LI:nth-of-type(odd) {
-	background-color:#ffc489;
+	background-color:#adc3ff;
 }
 ASIDE UL LI:nth-of-type(even) {
-	background-color: #c1ffb5;
+	background-color: #7baafc;
 }
 ASIDE UL LI A {
+	padding: 5px;
 	width: 100%;
 	font-size: 1.2em;
 	text-decoration:  none;
@@ -226,10 +229,10 @@ ASIDE UL LI A:hover {
 	text-decoration: underline;
 }
 ASIDE UL LI:nth-of-type(odd) A {
-	color: dodgerblue;
+	color: darkgray;
 }
 ASIDE UL LI:nth-of-type(even) A {
-	color: grey;
+	color: white;
 }
 
 /*
